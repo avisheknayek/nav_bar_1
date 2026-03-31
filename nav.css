@@ -15,15 +15,17 @@ body {
 nav {
     color: black;
     padding: 15px 20px;
+    width: 100%;
+    background: #031222;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2px;
+    gap: 20px;
 }
 
 .nav-links li a {
@@ -58,6 +60,11 @@ nav {
 
     }
 
+    nav {
+        background: transparent;
+    }
+        
+
     .nav-links {
         position: absolute;
         top: 55%;
@@ -68,6 +75,7 @@ nav {
         flex-direction: column;
         text-align: center;
         display: none;
+        gap: 2px;
     }
 
     .nav-links li {
